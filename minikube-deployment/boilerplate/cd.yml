@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/Raihan-009/argocd-deployments.git
-    targetRevision: HEAD
+    targetRevision: main
     path: minikube-deployment/boilerplate
   destination:
     server: https://kubernetes.default.svc
