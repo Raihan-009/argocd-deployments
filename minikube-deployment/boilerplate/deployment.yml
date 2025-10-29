@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: fe-boilerplate
-          image: matrix009/fe-boilerplate:v1.0.7
+          image: matrix009/fe-boilerplate:v1.0.8
           ports:
             - containerPort: 80
       restartPolicy: Always
