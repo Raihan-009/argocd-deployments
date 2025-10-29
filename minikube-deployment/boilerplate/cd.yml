@@ -11,7 +11,7 @@ spec:
     path: minikube-deployment/boilerplate
   destination:
     server: https://kubernetes.default.svc
-    namespace: boilerplate
+    namespace: minikube
   syncPolicy:
     automated:
       prune: true
